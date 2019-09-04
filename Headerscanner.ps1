@@ -30,3 +30,4 @@ ForEach ($url in $urls) {
  $ht2 | Out-File E:\Powershell\Headerscanneroutput.log -Append
  Write-Output " " | Out-File E:\Powershell\Headerscanneroutput.log -Append
  } 
+ #aanpassing
