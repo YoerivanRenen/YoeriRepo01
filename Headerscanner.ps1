@@ -29,5 +29,6 @@ ForEach ($url in $urls) {
  Write-Output "Website: $url" | Out-File E:\Powershell\Headerscanneroutput.log -Append
  $ht2 | Out-File E:\Powershell\Headerscanneroutput.log -Append
  Write-Output " " | Out-File E:\Powershell\Headerscanneroutput.log -Append
+ #Comment
  } 
  #aanpassing
